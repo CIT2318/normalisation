@@ -5,7 +5,9 @@ Look at the following database tables and normalise them. For each table idenitf
 ```
 
 ## Question 1
-**Superheros**
+
+**superheros**
+
 | id | name          | first_appearance | power1       | power2              | power3              |
 |----|---------------|------------------|--------------|---------------------|---------------------|
 | 1  | Black Panther | 1966             | Night Vision | Superhuman Strength | null                |
@@ -13,7 +15,9 @@ Look at the following database tables and normalise them. For each table idenitf
 | 3  | Storm         | 1975             | Flight       | Control of Elements | null                |
 
 ## Question 2
-**Films**
+
+**films**
+
 | id | title              | year | starring                                        |
 |----|--------------------|------|-------------------------------------------------|
 | 1  | Jaws               | 1975 | Roy Scheider, Robert Shaw, Richard Dreyfuss     |
@@ -21,6 +25,9 @@ Look at the following database tables and normalise them. For each table idenitf
 | 3  | Do The Right Thing | 1989 | Danny Aiello, Ossie Davis             |
 
 ## Question 3
+
+**films**
+
 | id | title              | year | director_id | director_lastname | director_firstname |
 |----|--------------------|------|-------------|-------------------|--------------------|
 | 1  | Jaws               | 1975 | 7           | Spielberg         | Steven             |
@@ -29,6 +36,9 @@ Look at the following database tables and normalise them. For each table idenitf
 
 
 ## Question 4
+
+**recipe_ingredients**
+
 | recipe_id | ingredient_id | quantity | ingredient_name |
 |-----------|---------------|----------|-----------------|
 | 1         | 1             | 2        | egg             |
@@ -38,6 +48,9 @@ Look at the following database tables and normalise them. For each table idenitf
 | 2         | 2             | 1tsp     | butter          |
 
 ## Question 5
+
+**appointments**
+
 | id | dr_id | patient_id | dr_name     | patient_name  | date_time        | room |
 |----|-------|------------|-------------|---------------|------------------|------|
 | 1  | 1     | 1          | Jakub Nowak | Kate Atherton | 01/01/2021 10:00 | s13  |
